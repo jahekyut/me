@@ -1,0 +1,50 @@
+/* Styles for your web portfolio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Add more CSS styling as needed */
